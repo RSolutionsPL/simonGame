@@ -1,0 +1,26 @@
+program.
+
+
+algorytm:
+musi wskaać dany kwadrat przez 1s, a potem z każdym powtózeniem po graczu porawnym o 1 więcej
+zacznamy 1 kwadrat ->
+2 kwdaraty
+3 kwadraty itp. (losowo);
+gracz powrarza jak powtózy to score + 1 ( za każde prawidłowe powtórzenie)
+koniec naliczania jak błąd;
+
+(zmiana tła na czerwone przez 0,5 s + dzwięk skuśki)
+
+czerwony 
+żólty 
+zielony 
+niebieski - każdy musi mieć odrobinę inny dzwięk
+dodatkowo musi się podświetlać ( moze nie być press przez 1 s.)
+
+if {
+    kwadrat nie press -> dzwięk 1x
+}
+
+algorytm press kwadrat ->
+za każdym razem musi zapisać jaki wylosował i go pressnąć -> wylosować i pressnąć -> wylosować i pressnać
+potem gracz powtarza jak się skończy 
